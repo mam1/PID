@@ -1,6 +1,10 @@
 #ifndef PIDTEST_H_
 #define PIDTEST_H_
 
+/* version */
+#define v 0
+#define sv 0
+
 /* pid control block */
 typedef struct {
 	double windup_guard;
